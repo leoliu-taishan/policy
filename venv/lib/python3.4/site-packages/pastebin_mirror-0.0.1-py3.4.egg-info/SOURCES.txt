@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+pastebin_mirror/__main__.py
+pastebin_mirror/scraper.py
+pastebin_mirror/storage.py
+pastebin_mirror.egg-info/PKG-INFO
+pastebin_mirror.egg-info/SOURCES.txt
+pastebin_mirror.egg-info/dependency_links.txt
+pastebin_mirror.egg-info/not-zip-safe
+pastebin_mirror.egg-info/requires.txt
+pastebin_mirror.egg-info/top_level.txt

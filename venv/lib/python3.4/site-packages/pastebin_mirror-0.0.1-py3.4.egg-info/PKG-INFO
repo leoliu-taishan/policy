@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pastebin-mirror
+Version: 0.0.1
+Summary: Mirror Pastebin to an SQLite DB
+Home-page: http://github.com/imnotjames/pastebin_mirror
+Author: James Ward
+Author-email: james@notjam.es
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
