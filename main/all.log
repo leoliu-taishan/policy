@@ -1,303 +1,303 @@
-2018-07-20 13:35:36,232 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:101:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:35:36,261 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:101:主队:索尔纳(联赛排名2)-主场状态4胜2平0负
-2018-07-20 13:35:36,262 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:101:客队:沙姆洛克(联赛排名6)-客场状态1胜3平6负
-2018-07-20 13:35:36,262 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:101--索尔纳|沙姆洛克交手,主队1胜0平0负
-2018-07-20 13:35:36,263 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:101:最近三场比赛(1):沙姆洛克(as主)进球:0|索尔纳(as客)进球:1
-2018-07-20 13:35:36,263 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:101:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:35:36,277 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:101:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:35:36,278 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:101:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:35:36,278 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:101:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:35:36,280 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:101:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:35:36,309 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:101 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:35:36,323 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:101:LIBO初始赔率:1.29|5.00|13.00下:没有这样的赔率组合
-2018-07-20 13:35:36,329 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:101:LIBO变盘赔率:1.29|5.20|13.00下:没有这样的赔率组合
-2018-07-20 13:35:36,337 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:101:William初始赔率:1.18|5.50|13.00下:没有这样的赔率组合
-2018-07-20 13:35:36,368 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:101:William变盘赔率:1.22|5.50|11.00下:没有这样的赔率组合
-2018-07-20 13:35:54,201 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:101:Bet365初始赔率:1.22|5.00|10.00下:没有这样的赔率组合
-2018-07-20 13:35:54,210 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:101:Bet365变盘赔率:1.22|5.50|15.00下:没有这样的赔率组合
-2018-07-20 13:35:54,219 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:101:BWIN初始赔率:1.22|5.00|12.00下:没有这样的赔率组合
-2018-07-20 13:35:54,227 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:101:BWIN变盘赔率:1.22|5.50|10.50下:没有这样的赔率组合
-2018-07-20 13:35:54,236 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:101:SINA初始赔率:1.20|5.50|11.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:35:54,244 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:101:SINA变盘赔率:1.25|5.00|12.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:35:54,259 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:101:Interview初始赔率:1.20|5.25|12.75下:没有这样的赔率组合
-2018-07-20 13:35:54,273 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:101:Interview变盘赔率:1.25|4.70|10.75下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:35:54,274 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:101--LIBO 初始赢得赔率高于所有其他公司!索尔纳(让-1)球
-2018-07-20 13:35:54,275 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:101 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:35:54,276 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:102:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:35:54,305 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:102:主队:特马卡比(联赛排名60)-主场状态60胜60平60负
-2018-07-20 13:35:54,306 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:102:客队:费伦茨(联赛排名60)-客场状态60胜60平60负
-2018-07-20 13:35:54,306 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:102--特马卡比|费伦茨交手,主队0胜1平0负
-2018-07-20 13:35:54,307 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:102:最近三场比赛(1):费伦茨(as主)进球:1|特马卡比(as客)进球:1
-2018-07-20 13:35:54,307 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:102:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:35:54,316 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:102:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:35:54,317 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:102:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:35:54,318 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:102:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:35:54,323 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:102:  ===>step 2.3): Beta365(半球/一球1.35)|澳门(半球/一球1.1)|Wewbet(半球/一球1.21)|客队尾盘高水!
-2018-07-20 13:35:54,324 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:102:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:35:54,347 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:102 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:35:54,360 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:102:LIBO初始赔率:1.75|3.50|5.00下:没有这样的赔率组合
-2018-07-20 13:35:54,368 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:102:LIBO变盘赔率:1.50|3.80|7.00下:没有这样的赔率组合
-2018-07-20 13:35:54,378 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:102:William初始赔率:1.70|3.40|4.50下:没有这样的赔率组合
-2018-07-20 13:35:54,392 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:102:William变盘赔率:1.50|3.90|6.00下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
-2018-07-20 13:35:59,274 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:102:Bet365初始赔率:1.66|3.50|4.33下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:35:59,311 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:102:Bet365变盘赔率:1.50|3.75|7.50下主队赢得概率:66.67%(4次)-平的概率：16.67%(1次)-输的概率：16.67%(1次)!
-2018-07-20 13:35:59,326 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:102:BWIN初始赔率:1.65|3.60|4.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:35:59,336 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:102:BWIN变盘赔率:1.53|3.90|5.25下:没有这样的赔率组合
-2018-07-20 13:35:59,348 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:102:SINA初始赔率:1.67|3.30|4.75下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:35:59,360 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:102:SINA变盘赔率:1.50|3.70|6.75下:没有这样的赔率组合
-2018-07-20 13:35:59,368 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:102:Interview初始赔率:1.70|3.35|4.85下:没有这样的赔率组合
-2018-07-20 13:35:59,375 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:102:Interview变盘赔率:1.50|3.70|6.50下:没有这样的赔率组合
-2018-07-20 13:35:59,376 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:102--LIBO 初始赢得赔率高于所有其他公司!特马卡比(让-1)球
-2018-07-20 13:35:59,376 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:102 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:35:59,378 - /root/PycharmProjects/policy/main/main.py[line:1354] - INFO: match_id = 20180719:102:Beta 365i满足赔率--1.66|3.5|4.33
-2018-07-20 13:35:59,379 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:103:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:35:59,387 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:103:主队:哥本哈根(联赛排名3)-主场状态2胜2平2负
-2018-07-20 13:35:59,388 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:103:客队:库普斯(联赛排名60)-客场状态60胜60平60负
-2018-07-20 13:35:59,390 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:103--哥本哈根|库普斯交手,主队1胜0平0负
-2018-07-20 13:35:59,390 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:103:最近三场比赛(1):库普斯(as主)进球:0|哥本哈根(as客)进球:1
-2018-07-20 13:35:59,391 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:103:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:35:59,393 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:103:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:35:59,395 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:103:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:35:59,395 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:103:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:35:59,396 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:103:  ===>step 2.3): Beta365(球半/两球1.2)|澳门(球半/两球1.05)|Bet10(两球1.05)|Wewbet(球半/两球1.17)|客队尾盘高水!
-2018-07-20 13:35:59,397 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:103:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:35:59,412 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:103 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:35:59,430 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:103:LIBO初始赔率:1.22|6.00|15.00下主队赢得概率:50.00%(2次)-平的概率：25.00%(1次)-输的概率：25.00%(1次)!
-2018-07-20 13:35:59,442 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:103:LIBO变盘赔率:1.15|7.50|15.00下:没有这样的赔率组合
-2018-07-20 13:35:59,450 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:103:William初始赔率:1.20|5.50|12.00下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:35:59,460 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:103:William变盘赔率:1.12|8.00|13.00下:没有这样的赔率组合
-2018-07-20 13:36:03,944 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:103:Bet365初始赔率:1.20|6.00|9.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:03,951 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:103:Bet365变盘赔率:1.16|7.00|15.00下主队赢得概率:66.67%(4次)-平的概率：33.33%(2次)-输的概率：0%(0次)!
-2018-07-20 13:36:03,960 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:103:BWIN初始赔率:1.60|3.60|5.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:03,968 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:103:BWIN变盘赔率:1.60|3.60|5.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:03,979 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:103:SINA初始赔率:1.60|3.50|5.25下主队赢得概率:33.33%(1次)-平的概率：33.33%(1次)-输的概率：33.33%(1次)!
-2018-07-20 13:36:03,988 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:103:SINA变盘赔率:1.60|3.50|5.25下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:03,999 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:103:Interview初始赔率:1.18|5.75|12.50下:没有这样的赔率组合
-2018-07-20 13:36:04,005 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:103:Interview变盘赔率:1.14|6.50|14.25下:没有这样的赔率组合
-2018-07-20 13:36:04,006 - /root/PycharmProjects/policy/main/main.py[line:1272] - WARNING: match_id = 20180719:103哥本哈根（主队）--:BWIN:SINA赢的赔率超过立博30%!!!!
-2018-07-20 13:36:04,007 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:103 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:04,009 - /root/PycharmProjects/policy/main/main.py[line:1365] - INFO: match_id = 20180719:103:SINA赔率没有变化1.6|3.5|5.25
-2018-07-20 13:36:04,017 - /root/PycharmProjects/policy/main/main.py[line:948] - INFO: match_id = 20180719:103:SINA Only初始赔率:1.60|3.50|5.25 胜:1|平1|负1
-2018-07-20 13:36:04,071 - /root/PycharmProjects/policy/main/main.py[line:955] - INFO: match_id = 20180719:103:SINA Only最终赔率:1.60|3.50|5.25 胜:1|平0|负0
-2018-07-20 13:36:04,087 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:103:BWIN赔率没有变化1.6|3.6|5.0
-2018-07-20 13:36:04,101 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:103:BWIN Only初始赔率:1.60|3.60|5.00胜:1|平0|负0
-2018-07-20 13:36:04,114 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:103:BWIN Only最终赔率:1.60|3.60|5.00胜:1|平0|负0
-2018-07-20 13:36:04,122 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:104:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:04,123 - /root/PycharmProjects/policy/main/main.py[line:561] - INFO: match_id = 20180719:104:杯赛, 联赛排名不是那么重要，看最近状态和相互战绩 
-2018-07-20 13:36:04,128 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:104:主队:昆卡(联赛排名12)-主场状态1胜5平2负
-2018-07-20 13:36:04,129 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:104:客队:维斯特曼(联赛排名60)-客场状态60胜60平60负
-2018-07-20 13:36:04,130 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:104--昆卡|维斯特曼交手,主队60胜60平60负
-2018-07-20 13:36:04,130 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:104:最近三场比赛(1):维斯特曼60:60昆卡
-2018-07-20 13:36:04,130 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:104:最近三场比赛(2):维斯特曼60:60昆卡
-2018-07-20 13:36:04,131 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:104:最近三场比赛(3):维斯特曼60:60昆卡
-2018-07-20 13:36:04,132 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:104:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:04,168 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:104:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:04,177 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:104:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:04,177 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:104:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:04,180 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:104:  ===>step 2.3): Wewbet(半球1.0)|主队尾盘高水!
-2018-07-20 13:36:04,182 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:104:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:04,198 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:104 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:04,208 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:104:LIBO初始赔率:1.91|3.00|4.00下:没有这样的赔率组合
-2018-07-20 13:36:04,235 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:104:LIBO变盘赔率:1.91|3.00|4.00下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:04,246 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:104:William初始赔率:1.85|3.40|4.20下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:04,257 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:104:William变盘赔率:1.85|3.40|4.20下:没有这样的赔率组合
-2018-07-20 13:36:14,468 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:104:Bet365初始赔率:1.83|3.40|4.50下主队赢得概率:50.00%(11次)-平的概率：36.36%(8次)-输的概率：13.64%(3次)!
-2018-07-20 13:36:14,478 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:104:Bet365变盘赔率:1.90|3.30|4.20下主队赢得概率:54.55%(6次)-平的概率：27.27%(3次)-输的概率：18.18%(2次)!
-2018-07-20 13:36:14,483 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:104:BWIN初始赔率:1.85|3.20|4.10下主队赢得概率:66.67%(2次)-平的概率：33.33%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:14,492 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:104:BWIN变盘赔率:1.85|3.20|4.10下主队赢得概率:50.00%(2次)-平的概率：25.00%(1次)-输的概率：25.00%(1次)!
-2018-07-20 13:36:14,499 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:104:SINA初始赔率:1.80|3.15|4.25下主队赢得概率:42.86%(3次)-平的概率：28.57%(2次)-输的概率：28.57%(2次)!
-2018-07-20 13:36:14,505 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:104:SINA变盘赔率:1.87|3.00|4.00下:没有这样的赔率组合
-2018-07-20 13:36:14,572 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:104:Interview初始赔率:1.87|3.25|4.30下:没有这样的赔率组合
-2018-07-20 13:36:14,589 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:104:Interview变盘赔率:1.90|3.10|4.25下:没有这样的赔率组合
-2018-07-20 13:36:14,590 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:104--LIBO 初始赢得赔率高于所有其他公司!昆卡(让-1)球
-2018-07-20 13:36:14,591 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:104 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:14,592 - /root/PycharmProjects/policy/main/main.py[line:1297] - INFO: match_id = 20180719:104:立博赔率没有变化1.91|3.0|4.0
-2018-07-20 13:36:14,632 - /root/PycharmProjects/policy/main/main.py[line:822] - INFO: match_id = 20180719:104:LIBO Only最终赔率:1.91|3.00|4.00 胜:0|平1|负0
-2018-07-20 13:36:14,645 - /root/PycharmProjects/policy/main/main.py[line:1314] - INFO: match_id = 20180719:104:William赔率没有变化1.85|3.4|4.2
-2018-07-20 13:36:14,655 - /root/PycharmProjects/policy/main/main.py[line:882] - INFO: match_id = 20180719:104:William Only初始赔率:1.85|3.40|4.20胜:2|平0|负0
-2018-07-20 13:36:14,674 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:104:BWIN赔率没有变化1.85|3.2|4.1
-2018-07-20 13:36:14,684 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:104:BWIN Only初始赔率:1.85|3.20|4.10胜:2|平1|负0
-2018-07-20 13:36:14,694 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:104:BWIN Only最终赔率:1.85|3.20|4.10胜:2|平1|负1
-2018-07-20 13:36:14,708 - /root/PycharmProjects/policy/main/main.py[line:874] - INFO: match_id = 20180719:104:BWIN 初始+最终赔率:1.85|3.20|4.10胜:1|平0|负0
-2018-07-20 13:36:14,710 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:105:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:14,716 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:105:主队:沙佩科(联赛排名18)-主场状态1胜2平0负
-2018-07-20 13:36:14,717 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:105:客队:巴伊亚(联赛排名15)-客场状态0胜0平3负
-2018-07-20 13:36:14,719 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:105--沙佩科|巴伊亚交手,主队3胜1平0负
-2018-07-20 13:36:14,720 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:105:最近三场比赛(1):巴伊亚0:1沙佩科
-2018-07-20 13:36:14,720 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:105:最近三场比赛(2):沙佩科1:1巴伊亚
-2018-07-20 13:36:14,721 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:105:最近三场比赛(3):巴伊亚0:1沙佩科
-2018-07-20 13:36:14,721 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:105:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:14,723 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:105:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:14,724 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:105:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:14,725 - /root/PycharmProjects/policy/main/main.py[line:348] - WARNING: match_id = 20180719:105:  ===>step 2.2): :澳门客队终盘超级高水:1.12(平手/半球)--客队没可能打出来,无论强弱!!!!
-2018-07-20 13:36:14,726 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:105:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:14,727 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:105:  ===>step 2.3): Beta365(半球1.02)|Bet10(半球1.03)|Wewbet(半球1.08)|主队初盘高水!
-2018-07-20 13:36:14,728 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:105:  ===>step 2.3): Bet10(半球1.0)|Wewbet(半球1.03)|主队尾盘高水!
-2018-07-20 13:36:14,728 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:105:  ===>step 2.3): 澳门(平手/半球1.04)|客队初盘高水!
-2018-07-20 13:36:14,729 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:105:  ===>step 2.3): 澳门(平手/半球1.12)|客队尾盘高水!
-2018-07-20 13:36:14,729 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:105:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:14,740 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:105 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:14,751 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:105:LIBO初始赔率:2.00|3.00|3.90下主队赢得概率:66.67%(2次)-平的概率：0%(0次)-输的概率：33.33%(1次)!
-2018-07-20 13:36:14,758 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:105:LIBO变盘赔率:1.87|3.40|4.00下:没有这样的赔率组合
-2018-07-20 13:36:14,764 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:105:William初始赔率:2.00|3.20|3.90下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:14,772 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:105:William变盘赔率:1.95|3.30|3.80下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:18,965 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:105:Bet365初始赔率:2.00|3.10|4.20下主队赢得概率:61.54%(8次)-平的概率：15.38%(2次)-输的概率：23.08%(3次)!
-2018-07-20 13:36:18,976 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:105:Bet365变盘赔率:2.00|3.10|4.20下主队赢得概率:33.33%(3次)-平的概率：33.33%(3次)-输的概率：33.33%(3次)!
-2018-07-20 13:36:18,986 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:105:BWIN初始赔率:2.00|3.00|4.10下:没有这样的赔率组合
-2018-07-20 13:36:18,992 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:105:BWIN变盘赔率:2.00|3.00|4.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:19,000 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:105:SINA初始赔率:1.95|3.05|4.00下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:19,007 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:105:SINA变盘赔率:1.95|3.20|4.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:19,012 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:105:Interview初始赔率:2.00|3.15|3.85下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:19,017 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:105:Interview变盘赔率:1.93|3.15|4.15下:没有这样的赔率组合
-2018-07-20 13:36:19,019 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:105 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:19,020 - /root/PycharmProjects/policy/main/main.py[line:1350] - INFO: match_id = 20180719:105:Beta 365赔率没有变化2.0|3.1|4.2
-2018-07-20 13:36:19,031 - /root/PycharmProjects/policy/main/main.py[line:904] - INFO: match_id = 20180719:105:Bet365 Only初始赔率:2.00|3.10|4.20胜:8|平2|负3
-2018-07-20 13:36:19,037 - /root/PycharmProjects/policy/main/main.py[line:911] - INFO: match_id = 20180719:105:Bet365 Only最终赔率:2.00|3.10|4.20胜:3|平3|负3
-2018-07-20 13:36:19,044 - /root/PycharmProjects/policy/main/main.py[line:1400] - WARNING: match_id = 20180719:105:竞彩赔率 1.88
-2018-07-20 13:36:19,045 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:106:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:19,049 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:106:主队:克鲁塞罗(联赛排名10)-主场状态2胜0平1负
-2018-07-20 13:36:19,049 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:106:客队:米美洲(联赛排名11)-客场状态0胜1平2负
-2018-07-20 13:36:19,050 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:106--克鲁塞罗|米美洲交手,主队5胜4平1负
-2018-07-20 13:36:19,050 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:106:最近三场比赛(1):克鲁塞罗1:0米美洲
-2018-07-20 13:36:19,050 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:106:最近三场比赛(2):克鲁塞罗2:0米美洲
-2018-07-20 13:36:19,051 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:106:最近三场比赛(3):米美洲1:1克鲁塞罗
-2018-07-20 13:36:19,051 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:106:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:19,053 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:106:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:19,055 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:106:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:19,055 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:106:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:19,056 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:106:  ===>step 2.3): 澳门(一球/球半1.04)|Wewbet(一球/球半1.09)|主队初盘高水!
-2018-07-20 13:36:19,057 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:106:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:19,115 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:106 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:19,121 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:106:LIBO初始赔率:1.50|3.70|7.50下:没有这样的赔率组合
-2018-07-20 13:36:19,130 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:106:LIBO变盘赔率:1.36|4.20|9.50下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:19,139 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:106:William初始赔率:1.53|3.75|6.50下:没有这样的赔率组合
-2018-07-20 13:36:19,145 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:106:William变盘赔率:1.35|4.75|8.50下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:25,798 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:106:Bet365初始赔率:1.44|4.00|8.00下主队赢得概率:77.78%(7次)-平的概率：22.22%(2次)-输的概率：0%(0次)!
-2018-07-20 13:36:25,803 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:106:Bet365变盘赔率:1.36|4.50|9.50下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:25,812 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:106:BWIN初始赔率:1.48|3.90|6.75下主队赢得概率:100.00%(4次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:25,819 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:106:BWIN变盘赔率:1.40|4.20|8.00下:没有这样的赔率组合
-2018-07-20 13:36:25,824 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:106:SINA初始赔率:1.45|3.85|7.50下:没有这样的赔率组合
-2018-07-20 13:36:25,834 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:106:SINA变盘赔率:1.40|4.25|8.25下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:25,843 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:106:Interview初始赔率:1.45|3.90|7.30下:没有这样的赔率组合
-2018-07-20 13:36:25,855 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:106:Interview变盘赔率:1.37|4.20|8.60下:没有这样的赔率组合
-2018-07-20 13:36:25,855 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:106 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:25,857 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:107:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:25,862 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:107:主队:达伽马(联赛排名13)-主场状态2胜0平1负
-2018-07-20 13:36:25,863 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:107:客队:弗鲁米嫩(联赛排名2)-客场状态1胜0平2负
-2018-07-20 13:36:25,863 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:107--达伽马|弗鲁米嫩交手,主队6胜1平3负
-2018-07-20 13:36:25,864 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:107:最近三场比赛(1):弗鲁米嫩2:3达伽马
-2018-07-20 13:36:25,864 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:107:最近三场比赛(2):达伽马0:0弗鲁米嫩
-2018-07-20 13:36:25,864 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:107:最近三场比赛(3):弗鲁米嫩0:1达伽马
-2018-07-20 13:36:25,865 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:107:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:25,866 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:107:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:25,867 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:107:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:25,867 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:107:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:25,868 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:107:  ===>step 2.3): Beta365(半球1.02)|Bet10(半球1.03)|Wewbet(半球1.07)|主队初盘高水!
-2018-07-20 13:36:25,868 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:107:  ===>step 2.3): Wewbet(平手/半球1.03)|主队尾盘高水!
-2018-07-20 13:36:25,869 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:107:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:25,878 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:107 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:25,886 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:107:LIBO初始赔率:2.00|3.20|3.75下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:25,923 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:107:LIBO变盘赔率:2.25|3.10|3.20下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:25,944 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:107:William初始赔率:2.05|3.30|3.60下:没有这样的赔率组合
-2018-07-20 13:36:25,952 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:107:William变盘赔率:2.25|3.30|3.10下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:29,545 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:107:Bet365初始赔率:2.00|3.40|3.75下主队赢得概率:41.30%(19次)-平的概率：23.91%(11次)-输的概率：34.78%(16次)!
-2018-07-20 13:36:29,556 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:107:Bet365变盘赔率:2.20|3.40|3.30下主队赢得概率:0%(0次)-平的概率：50.00%(2次)-输的概率：50.00%(2次)!
-2018-07-20 13:36:29,564 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:107:BWIN初始赔率:1.95|3.40|3.70下主队赢得概率:100.00%(4次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:29,570 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:107:BWIN变盘赔率:2.20|3.25|3.10下主队赢得概率:50.00%(1次)-平的概率：50.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:29,576 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:107:SINA初始赔率:1.95|3.25|3.70下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:29,583 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:107:SINA变盘赔率:2.15|3.20|3.30下主队赢得概率:0%(0次)-平的概率：75.00%(3次)-输的概率：25.00%(1次)!
-2018-07-20 13:36:29,591 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:107:Interview初始赔率:2.00|3.30|3.60下主队赢得概率:46.67%(14次)-平的概率：33.33%(10次)-输的概率：20.00%(6次)!
-2018-07-20 13:36:29,599 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:107:Interview变盘赔率:2.20|3.15|3.20下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
-2018-07-20 13:36:29,599 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:107 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:29,600 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:108:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:29,603 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:108:主队:桑托斯(联赛排名17)-主场状态2胜0平1负
-2018-07-20 13:36:29,603 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:108:客队:帕梅拉斯(联赛排名7)-客场状态1胜1平1负
-2018-07-20 13:36:29,603 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:108--桑托斯|帕梅拉斯交手,主队4胜3平3负
-2018-07-20 13:36:29,604 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:108:最近三场比赛(1):帕梅拉斯1:2桑托斯
-2018-07-20 13:36:29,604 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:108:最近三场比赛(2):桑托斯0:1帕梅拉斯
-2018-07-20 13:36:29,605 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:108:最近三场比赛(3):帕梅拉斯2:1桑托斯
-2018-07-20 13:36:29,605 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:108:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:29,607 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:108:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:29,607 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:108:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:29,608 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:108:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:29,609 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:108:  ===>step 2.3): 澳门(平手1.0)|Wewbet(平手1.08)|主队初盘高水!
-2018-07-20 13:36:29,610 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:108:  ===>step 2.3): Beta365(平手1.02)|Bet10(平手1.06)|Wewbet(平手1.05)|主队尾盘高水!
-2018-07-20 13:36:29,611 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:108:  ===>step 2.3): Beta365(受平手/半球1.1)|Bet10(受平手/半球1.1)|客队初盘高水!
-2018-07-20 13:36:29,611 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:108:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:29,617 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:108 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:29,622 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:108:LIBO初始赔率:2.90|3.00|2.45下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:29,628 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:108:LIBO变盘赔率:2.75|3.00|2.55下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(2次)!
-2018-07-20 13:36:29,633 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:108:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:29,642 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:108:William变盘赔率:2.75|3.25|2.50下:没有这样的赔率组合
-2018-07-20 13:36:33,928 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:108:Bet365初始赔率:3.00|3.00|2.50下主队赢得概率:9.09%(1次)-平的概率：54.55%(6次)-输的概率：36.36%(4次)!
-2018-07-20 13:36:33,934 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:108:Bet365变盘赔率:2.87|3.00|2.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:33,942 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:108:BWIN初始赔率:2.95|2.95|2.50下:没有这样的赔率组合
-2018-07-20 13:36:33,950 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:108:BWIN变盘赔率:2.75|3.10|2.55下:没有这样的赔率组合
-2018-07-20 13:36:33,958 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:108:SINA初始赔率:2.95|3.00|2.45下:没有这样的赔率组合
-2018-07-20 13:36:33,966 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:108:SINA变盘赔率:2.80|3.10|2.50下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:33,976 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:108:Interview初始赔率:2.90|3.10|2.45下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:33,982 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:108:Interview变盘赔率:2.80|3.05|2.50下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:33,982 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:108 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:33,983 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:109:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:33,987 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:109:主队:巴竞技(联赛排名16)-主场状态1胜0平2负
-2018-07-20 13:36:33,987 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:109:客队:巴西国际(联赛排名8)-客场状态0胜1平2负
-2018-07-20 13:36:33,988 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:109--巴竞技|巴西国际交手,主队3胜3平4负
-2018-07-20 13:36:33,989 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:109:最近三场比赛(1):巴竞技2:1巴西国际
-2018-07-20 13:36:33,989 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:109:最近三场比赛(2):巴西国际1:0巴竞技
-2018-07-20 13:36:33,990 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:109:最近三场比赛(3):巴西国际2:0巴竞技
-2018-07-20 13:36:33,990 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:109:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:33,992 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:109:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:33,993 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:109:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:33,993 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:109:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:33,994 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:109:  ===>step 2.3): 澳门(平手1.06)|主队初盘高水!
-2018-07-20 13:36:33,994 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:109:  ===>step 2.3): Bet10(平手1.01)|Wewbet(平手1.01)|主队尾盘高水!
-2018-07-20 13:36:33,995 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:109:  ===>step 2.3): Beta365(受平手/半球1.05)|Bet10(受平手/半球1.06)|Wewbet(受平手/半球1.09)|客队初盘高水!
-2018-07-20 13:36:33,995 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:109:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:34,001 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:109 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:34,008 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:109:LIBO初始赔率:3.00|3.00|2.35下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
-2018-07-20 13:36:34,015 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:109:LIBO变盘赔率:2.75|2.90|2.62下主队赢得概率:0%(0次)-平的概率：100.00%(2次)-输的概率：0%(0次)!
-2018-07-20 13:36:34,039 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:109:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:34,071 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:109:William变盘赔率:2.62|3.30|2.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:39,394 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:109:Bet365初始赔率:3.10|3.10|2.40下主队赢得概率:42.86%(3次)-平的概率：0%(0次)-输的概率：57.14%(4次)!
-2018-07-20 13:36:39,404 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:109:Bet365变盘赔率:2.80|3.10|2.60下主队赢得概率:20.00%(1次)-平的概率：40.00%(2次)-输的概率：40.00%(2次)!
-2018-07-20 13:36:39,415 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:109:BWIN初始赔率:3.00|3.00|2.40下主队赢得概率:50.00%(1次)-平的概率：50.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:39,424 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:109:BWIN变盘赔率:3.00|3.00|2.40下:没有这样的赔率组合
-2018-07-20 13:36:39,435 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:109:SINA初始赔率:3.00|3.05|2.35下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:39,444 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:109:SINA变盘赔率:2.75|3.10|2.60下:没有这样的赔率组合
-2018-07-20 13:36:39,451 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:109:Interview初始赔率:2.95|3.10|2.40下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:39,460 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:109:Interview变盘赔率:2.80|3.00|2.60下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
-2018-07-20 13:36:39,461 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:109 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:39,462 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:109:BWIN赔率没有变化3.0|3.0|2.4
-2018-07-20 13:36:39,472 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:109:BWIN Only初始赔率:3.00|3.00|2.40胜:1|平1|负0
-2018-07-20 13:36:39,506 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:110:*****************<<Step 1: 基本面分析>>*****************
-2018-07-20 13:36:39,512 - /root/PycharmProjects/policy/main/main.py[line:561] - INFO: match_id = 20180719:110:杯赛, 联赛排名不是那么重要，看最近状态和相互战绩 
-2018-07-20 13:36:39,521 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:110:主队:兰普拉(联赛排名60)-主场状态60胜60平60负
-2018-07-20 13:36:39,521 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:110:客队:圣菲独立(联赛排名60)-客场状态60胜60平60负
-2018-07-20 13:36:39,522 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:110--兰普拉|圣菲独立交手,主队60胜60平60负
-2018-07-20 13:36:39,523 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:110:最近三场比赛(1):圣菲独立60:60兰普拉
-2018-07-20 13:36:39,524 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:110:最近三场比赛(2):圣菲独立60:60兰普拉
-2018-07-20 13:36:39,527 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:110:最近三场比赛(3):圣菲独立60:60兰普拉
-2018-07-20 13:36:39,529 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:110:*****************<<Step 2: 盘口分析>>*******************
-2018-07-20 13:36:39,534 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:110:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
-2018-07-20 13:36:39,535 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:110:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
-2018-07-20 13:36:39,536 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:110:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
-2018-07-20 13:36:39,537 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:110:  ===>step 2.3): Bet10(平手1.25)|主队初盘高水!
-2018-07-20 13:36:39,557 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:110:  ===>step 2.3): Beta365(受平手/半球1.1)|澳门(受平手/半球1.03)|Wewbet(受平手/半球1.09)|客队初盘高水!
-2018-07-20 13:36:39,561 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:110:  ===>step 2.3): Beta365(受平手/半球1.0)|澳门(受平手/半球1.0)|Bet10(受平手/半球1.02)|Wewbet(受平手/半球1.05)|客队尾盘高水!
-2018-07-20 13:36:39,562 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:110:*****************<<Step 3: 赔率分析>>*******************
-2018-07-20 13:36:39,574 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:110 ===>step 3.1): 赔率分析第一步:
-2018-07-20 13:36:39,586 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:110:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
-2018-07-20 13:36:39,600 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:110:William变盘赔率:3.30|2.80|2.45下:没有这样的赔率组合
-2018-07-20 13:36:48,246 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:110:Bet365初始赔率:3.10|3.10|2.40下主队赢得概率:42.86%(3次)-平的概率：0%(0次)-输的概率：57.14%(4次)!
-2018-07-20 13:36:48,254 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:110:Bet365变盘赔率:3.10|3.10|2.37下主队赢得概率:28.57%(2次)-平的概率：28.57%(2次)-输的概率：42.86%(3次)!
-2018-07-20 13:36:48,268 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:110:BWIN初始赔率:3.10|2.95|2.30下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
-2018-07-20 13:36:48,281 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:110:BWIN变盘赔率:3.10|2.95|2.30下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
-2018-07-20 13:36:48,293 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:110:SINA初始赔率:3.10|2.80|2.30下:没有这样的赔率组合
-2018-07-20 13:36:48,301 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:110:SINA变盘赔率:3.15|2.70|2.35下:没有这样的赔率组合
-2018-07-20 13:36:48,307 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:110:Interview初始赔率:3.30|2.85|2.35下:没有这样的赔率组合
-2018-07-20 13:36:48,313 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:110:Interview变盘赔率:3.25|2.80|2.40下:没有这样的赔率组合
-2018-07-20 13:36:48,313 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:110 ===>step 3.2): 赔率分析第2步:
-2018-07-20 13:36:48,314 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:110:BWIN赔率没有变化3.1|2.95|2.3
-2018-07-20 13:36:48,322 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:110:BWIN Only初始赔率:3.10|2.95|2.30胜:2|平0|负0
-2018-07-20 13:36:48,329 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:110:BWIN Only最终赔率:3.10|2.95|2.30胜:1|平0|负1
-2018-07-20 13:36:48,348 - /root/PycharmProjects/policy/main/main.py[line:874] - INFO: match_id = 20180719:110:BWIN 初始+最终赔率:3.10|2.95|2.30胜:1|平0|负0
+2018-07-20 15:05:25,141 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:101:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,143 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:101:主队:索尔纳(联赛排名2)-主场状态4胜2平0负
+2018-07-20 15:05:25,144 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:101:客队:沙姆洛克(联赛排名6)-客场状态1胜3平6负
+2018-07-20 15:05:25,144 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:101--索尔纳|沙姆洛克交手,主队1胜0平0负
+2018-07-20 15:05:25,144 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:101:最近三场比赛(1):沙姆洛克(as主)进球:0|索尔纳(as客)进球:1
+2018-07-20 15:05:25,144 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:101:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,146 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:101:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,146 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:101:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,147 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:101:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,147 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:101:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,151 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:101 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,162 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:101:LIBO初始赔率:1.29|5.00|13.00下:没有这样的赔率组合
+2018-07-20 15:05:25,175 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:101:LIBO变盘赔率:1.29|5.20|13.00下:没有这样的赔率组合
+2018-07-20 15:05:25,182 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:101:William初始赔率:1.18|5.50|13.00下:没有这样的赔率组合
+2018-07-20 15:05:25,190 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:101:William变盘赔率:1.22|5.50|11.00下:没有这样的赔率组合
+2018-07-20 15:05:25,197 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:101:Bet365初始赔率:1.22|5.00|10.00下:没有这样的赔率组合
+2018-07-20 15:05:25,204 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:101:Bet365变盘赔率:1.22|5.50|15.00下:没有这样的赔率组合
+2018-07-20 15:05:25,214 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:101:BWIN初始赔率:1.22|5.00|12.00下:没有这样的赔率组合
+2018-07-20 15:05:25,221 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:101:BWIN变盘赔率:1.22|5.50|10.50下:没有这样的赔率组合
+2018-07-20 15:05:25,227 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:101:SINA初始赔率:1.20|5.50|11.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,234 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:101:SINA变盘赔率:1.25|5.00|12.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,240 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:101:Interview初始赔率:1.20|5.25|12.75下:没有这样的赔率组合
+2018-07-20 15:05:25,246 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:101:Interview变盘赔率:1.25|4.70|10.75下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,246 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:101--LIBO 初始赢得赔率高于所有其他公司!索尔纳(让-1)球
+2018-07-20 15:05:25,246 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:101 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:25,246 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:102:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,251 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:102:主队:特马卡比(联赛排名60)-主场状态60胜60平60负
+2018-07-20 15:05:25,251 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:102:客队:费伦茨(联赛排名60)-客场状态60胜60平60负
+2018-07-20 15:05:25,251 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:102--特马卡比|费伦茨交手,主队0胜1平0负
+2018-07-20 15:05:25,251 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:102:最近三场比赛(1):费伦茨(as主)进球:1|特马卡比(as客)进球:1
+2018-07-20 15:05:25,252 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:102:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,253 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:102:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,254 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:102:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,254 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:102:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,255 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:102:  ===>step 2.3): Beta365(半球/一球1.35)|澳门(半球/一球1.1)|Wewbet(半球/一球1.21)|客队尾盘高水!
+2018-07-20 15:05:25,255 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:102:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,259 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:102 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,266 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:102:LIBO初始赔率:1.75|3.50|5.00下:没有这样的赔率组合
+2018-07-20 15:05:25,272 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:102:LIBO变盘赔率:1.50|3.80|7.00下:没有这样的赔率组合
+2018-07-20 15:05:25,278 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:102:William初始赔率:1.70|3.40|4.50下:没有这样的赔率组合
+2018-07-20 15:05:25,282 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:102:William变盘赔率:1.50|3.90|6.00下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
+2018-07-20 15:05:25,290 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:102:Bet365初始赔率:1.66|3.50|4.33下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:25,298 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:102:Bet365变盘赔率:1.50|3.75|7.50下主队赢得概率:66.67%(4次)-平的概率：16.67%(1次)-输的概率：16.67%(1次)!
+2018-07-20 15:05:25,302 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:102:BWIN初始赔率:1.65|3.60|4.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,308 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:102:BWIN变盘赔率:1.53|3.90|5.25下:没有这样的赔率组合
+2018-07-20 15:05:25,313 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:102:SINA初始赔率:1.67|3.30|4.75下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,318 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:102:SINA变盘赔率:1.50|3.70|6.75下:没有这样的赔率组合
+2018-07-20 15:05:25,323 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:102:Interview初始赔率:1.70|3.35|4.85下:没有这样的赔率组合
+2018-07-20 15:05:25,334 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:102:Interview变盘赔率:1.50|3.70|6.50下:没有这样的赔率组合
+2018-07-20 15:05:25,334 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:102--LIBO 初始赢得赔率高于所有其他公司!特马卡比(让-1)球
+2018-07-20 15:05:25,334 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:102 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:25,335 - /root/PycharmProjects/policy/main/main.py[line:1354] - INFO: match_id = 20180719:102:Beta 365i满足赔率--1.66|3.5|4.33
+2018-07-20 15:05:25,335 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:103:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,343 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:103:主队:哥本哈根(联赛排名3)-主场状态2胜2平2负
+2018-07-20 15:05:25,343 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:103:客队:库普斯(联赛排名60)-客场状态60胜60平60负
+2018-07-20 15:05:25,343 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:103--哥本哈根|库普斯交手,主队1胜0平0负
+2018-07-20 15:05:25,344 - /root/PycharmProjects/policy/main/main.py[line:650] - INFO: match_id = 20180719:103:最近三场比赛(1):库普斯(as主)进球:0|哥本哈根(as客)进球:1
+2018-07-20 15:05:25,344 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:103:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,345 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:103:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,345 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:103:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,345 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:103:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,345 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:103:  ===>step 2.3): Beta365(球半/两球1.2)|澳门(球半/两球1.05)|Bet10(两球1.05)|Wewbet(球半/两球1.17)|客队尾盘高水!
+2018-07-20 15:05:25,345 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:103:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,351 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:103 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,361 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:103:LIBO初始赔率:1.22|6.00|15.00下主队赢得概率:50.00%(2次)-平的概率：25.00%(1次)-输的概率：25.00%(1次)!
+2018-07-20 15:05:25,368 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:103:LIBO变盘赔率:1.15|7.50|15.00下:没有这样的赔率组合
+2018-07-20 15:05:25,382 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:103:William初始赔率:1.20|5.50|12.00下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,393 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:103:William变盘赔率:1.12|8.00|13.00下:没有这样的赔率组合
+2018-07-20 15:05:25,410 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:103:Bet365初始赔率:1.20|6.00|9.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,432 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:103:Bet365变盘赔率:1.16|7.00|15.00下主队赢得概率:66.67%(4次)-平的概率：33.33%(2次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,442 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:103:BWIN初始赔率:1.60|3.60|5.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,452 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:103:BWIN变盘赔率:1.60|3.60|5.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,466 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:103:SINA初始赔率:1.60|3.50|5.25下主队赢得概率:33.33%(1次)-平的概率：33.33%(1次)-输的概率：33.33%(1次)!
+2018-07-20 15:05:25,483 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:103:SINA变盘赔率:1.60|3.50|5.25下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,490 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:103:Interview初始赔率:1.18|5.75|12.50下:没有这样的赔率组合
+2018-07-20 15:05:25,495 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:103:Interview变盘赔率:1.14|6.50|14.25下:没有这样的赔率组合
+2018-07-20 15:05:25,495 - /root/PycharmProjects/policy/main/main.py[line:1272] - WARNING: match_id = 20180719:103哥本哈根（主队）--:BWIN:SINA赢的赔率超过立博30%!!!!
+2018-07-20 15:05:25,495 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:103 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:25,496 - /root/PycharmProjects/policy/main/main.py[line:1365] - INFO: match_id = 20180719:103:SINA赔率没有变化1.6|3.5|5.25
+2018-07-20 15:05:25,501 - /root/PycharmProjects/policy/main/main.py[line:948] - INFO: match_id = 20180719:103:SINA Only初始赔率:1.60|3.50|5.25 胜:1|平1|负1
+2018-07-20 15:05:25,508 - /root/PycharmProjects/policy/main/main.py[line:955] - INFO: match_id = 20180719:103:SINA Only最终赔率:1.60|3.50|5.25 胜:1|平0|负0
+2018-07-20 15:05:25,514 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:103:BWIN赔率没有变化1.6|3.6|5.0
+2018-07-20 15:05:25,519 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:103:BWIN Only初始赔率:1.60|3.60|5.00胜:1|平0|负0
+2018-07-20 15:05:25,529 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:103:BWIN Only最终赔率:1.60|3.60|5.00胜:1|平0|负0
+2018-07-20 15:05:25,534 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:104:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,535 - /root/PycharmProjects/policy/main/main.py[line:561] - INFO: match_id = 20180719:104:杯赛, 联赛排名不是那么重要，看最近状态和相互战绩 
+2018-07-20 15:05:25,536 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:104:主队:昆卡(联赛排名12)-主场状态1胜5平2负
+2018-07-20 15:05:25,537 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:104:客队:维斯特曼(联赛排名60)-客场状态60胜60平60负
+2018-07-20 15:05:25,537 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:104--昆卡|维斯特曼交手,主队60胜60平60负
+2018-07-20 15:05:25,537 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:104:最近三场比赛(1):维斯特曼60:60昆卡
+2018-07-20 15:05:25,538 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:104:最近三场比赛(2):维斯特曼60:60昆卡
+2018-07-20 15:05:25,538 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:104:最近三场比赛(3):维斯特曼60:60昆卡
+2018-07-20 15:05:25,538 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:104:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,543 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:104:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,543 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:104:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,543 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:104:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,544 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:104:  ===>step 2.3): Wewbet(半球1.0)|主队尾盘高水!
+2018-07-20 15:05:25,544 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:104:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,546 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:104 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,553 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:104:LIBO初始赔率:1.91|3.00|4.00下:没有这样的赔率组合
+2018-07-20 15:05:25,560 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:104:LIBO变盘赔率:1.91|3.00|4.00下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,566 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:104:William初始赔率:1.85|3.40|4.20下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,575 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:104:William变盘赔率:1.85|3.40|4.20下:没有这样的赔率组合
+2018-07-20 15:05:25,584 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:104:Bet365初始赔率:1.83|3.40|4.50下主队赢得概率:50.00%(11次)-平的概率：36.36%(8次)-输的概率：13.64%(3次)!
+2018-07-20 15:05:25,611 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:104:Bet365变盘赔率:1.90|3.30|4.20下主队赢得概率:54.55%(6次)-平的概率：27.27%(3次)-输的概率：18.18%(2次)!
+2018-07-20 15:05:25,633 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:104:BWIN初始赔率:1.85|3.20|4.10下主队赢得概率:66.67%(2次)-平的概率：33.33%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,645 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:104:BWIN变盘赔率:1.85|3.20|4.10下主队赢得概率:50.00%(2次)-平的概率：25.00%(1次)-输的概率：25.00%(1次)!
+2018-07-20 15:05:25,653 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:104:SINA初始赔率:1.80|3.15|4.25下主队赢得概率:42.86%(3次)-平的概率：28.57%(2次)-输的概率：28.57%(2次)!
+2018-07-20 15:05:25,673 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:104:SINA变盘赔率:1.87|3.00|4.00下:没有这样的赔率组合
+2018-07-20 15:05:25,680 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:104:Interview初始赔率:1.87|3.25|4.30下:没有这样的赔率组合
+2018-07-20 15:05:25,691 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:104:Interview变盘赔率:1.90|3.10|4.25下:没有这样的赔率组合
+2018-07-20 15:05:25,691 - /root/PycharmProjects/policy/main/main.py[line:1258] - WARNING: match_id = 20180719:104--LIBO 初始赢得赔率高于所有其他公司!昆卡(让-1)球
+2018-07-20 15:05:25,692 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:104 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:25,692 - /root/PycharmProjects/policy/main/main.py[line:1297] - INFO: match_id = 20180719:104:立博赔率没有变化1.91|3.0|4.0
+2018-07-20 15:05:25,702 - /root/PycharmProjects/policy/main/main.py[line:822] - INFO: match_id = 20180719:104:LIBO Only最终赔率:1.91|3.00|4.00 胜:0|平1|负0
+2018-07-20 15:05:25,709 - /root/PycharmProjects/policy/main/main.py[line:1314] - INFO: match_id = 20180719:104:William赔率没有变化1.85|3.4|4.2
+2018-07-20 15:05:25,715 - /root/PycharmProjects/policy/main/main.py[line:882] - INFO: match_id = 20180719:104:William Only初始赔率:1.85|3.40|4.20胜:2|平0|负0
+2018-07-20 15:05:25,730 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:104:BWIN赔率没有变化1.85|3.2|4.1
+2018-07-20 15:05:25,735 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:104:BWIN Only初始赔率:1.85|3.20|4.10胜:2|平1|负0
+2018-07-20 15:05:25,740 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:104:BWIN Only最终赔率:1.85|3.20|4.10胜:2|平1|负1
+2018-07-20 15:05:25,749 - /root/PycharmProjects/policy/main/main.py[line:874] - INFO: match_id = 20180719:104:BWIN 初始+最终赔率:1.85|3.20|4.10胜:1|平0|负0
+2018-07-20 15:05:25,750 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:105:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,768 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:105:主队:沙佩科(联赛排名18)-主场状态1胜2平0负
+2018-07-20 15:05:25,768 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:105:客队:巴伊亚(联赛排名15)-客场状态0胜0平3负
+2018-07-20 15:05:25,768 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:105--沙佩科|巴伊亚交手,主队3胜1平0负
+2018-07-20 15:05:25,768 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:105:最近三场比赛(1):巴伊亚0:1沙佩科
+2018-07-20 15:05:25,768 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:105:最近三场比赛(2):沙佩科1:1巴伊亚
+2018-07-20 15:05:25,769 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:105:最近三场比赛(3):巴伊亚0:1沙佩科
+2018-07-20 15:05:25,769 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:105:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,770 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:105:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,770 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:105:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,770 - /root/PycharmProjects/policy/main/main.py[line:348] - WARNING: match_id = 20180719:105:  ===>step 2.2): :澳门客队终盘超级高水:1.12(平手/半球)--客队没可能打出来,无论强弱!!!!
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:105:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:105:  ===>step 2.3): Beta365(半球1.02)|Bet10(半球1.03)|Wewbet(半球1.08)|主队初盘高水!
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:105:  ===>step 2.3): Bet10(半球1.0)|Wewbet(半球1.03)|主队尾盘高水!
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:105:  ===>step 2.3): 澳门(平手/半球1.04)|客队初盘高水!
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:105:  ===>step 2.3): 澳门(平手/半球1.12)|客队尾盘高水!
+2018-07-20 15:05:25,771 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:105:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,782 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:105 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,805 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:105:LIBO初始赔率:2.00|3.00|3.90下主队赢得概率:66.67%(2次)-平的概率：0%(0次)-输的概率：33.33%(1次)!
+2018-07-20 15:05:25,820 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:105:LIBO变盘赔率:1.87|3.40|4.00下:没有这样的赔率组合
+2018-07-20 15:05:25,833 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:105:William初始赔率:2.00|3.20|3.90下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,841 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:105:William变盘赔率:1.95|3.30|3.80下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,852 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:105:Bet365初始赔率:2.00|3.10|4.20下主队赢得概率:61.54%(8次)-平的概率：15.38%(2次)-输的概率：23.08%(3次)!
+2018-07-20 15:05:25,864 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:105:Bet365变盘赔率:2.00|3.10|4.20下主队赢得概率:33.33%(3次)-平的概率：33.33%(3次)-输的概率：33.33%(3次)!
+2018-07-20 15:05:25,879 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:105:BWIN初始赔率:2.00|3.00|4.10下:没有这样的赔率组合
+2018-07-20 15:05:25,887 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:105:BWIN变盘赔率:2.00|3.00|4.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,893 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:105:SINA初始赔率:1.95|3.05|4.00下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:25,899 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:105:SINA变盘赔率:1.95|3.20|4.00下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,905 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:105:Interview初始赔率:2.00|3.15|3.85下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,915 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:105:Interview变盘赔率:1.93|3.15|4.15下:没有这样的赔率组合
+2018-07-20 15:05:25,916 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:105 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:25,916 - /root/PycharmProjects/policy/main/main.py[line:1350] - INFO: match_id = 20180719:105:Beta 365赔率没有变化2.0|3.1|4.2
+2018-07-20 15:05:25,923 - /root/PycharmProjects/policy/main/main.py[line:904] - INFO: match_id = 20180719:105:Bet365 Only初始赔率:2.00|3.10|4.20胜:8|平2|负3
+2018-07-20 15:05:25,929 - /root/PycharmProjects/policy/main/main.py[line:911] - INFO: match_id = 20180719:105:Bet365 Only最终赔率:2.00|3.10|4.20胜:3|平3|负3
+2018-07-20 15:05:25,934 - /root/PycharmProjects/policy/main/main.py[line:1400] - WARNING: match_id = 20180719:105:竞彩赔率 1.88
+2018-07-20 15:05:25,935 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:106:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:106:主队:克鲁塞罗(联赛排名10)-主场状态2胜0平1负
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:106:客队:米美洲(联赛排名11)-客场状态0胜1平2负
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:106--克鲁塞罗|米美洲交手,主队5胜4平1负
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:106:最近三场比赛(1):克鲁塞罗1:0米美洲
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:106:最近三场比赛(2):克鲁塞罗2:0米美洲
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:106:最近三场比赛(3):米美洲1:1克鲁塞罗
+2018-07-20 15:05:25,937 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:106:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:25,940 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:106:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:25,940 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:106:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:25,940 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:106:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:25,940 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:106:  ===>step 2.3): 澳门(一球/球半1.04)|Wewbet(一球/球半1.09)|主队初盘高水!
+2018-07-20 15:05:25,940 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:106:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:25,950 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:106 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:25,955 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:106:LIBO初始赔率:1.50|3.70|7.50下:没有这样的赔率组合
+2018-07-20 15:05:25,963 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:106:LIBO变盘赔率:1.36|4.20|9.50下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,970 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:106:William初始赔率:1.53|3.75|6.50下:没有这样的赔率组合
+2018-07-20 15:05:25,976 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:106:William变盘赔率:1.35|4.75|8.50下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:25,998 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:106:Bet365初始赔率:1.44|4.00|8.00下主队赢得概率:77.78%(7次)-平的概率：22.22%(2次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,008 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:106:Bet365变盘赔率:1.36|4.50|9.50下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,017 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:106:BWIN初始赔率:1.48|3.90|6.75下主队赢得概率:100.00%(4次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,026 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:106:BWIN变盘赔率:1.40|4.20|8.00下:没有这样的赔率组合
+2018-07-20 15:05:26,035 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:106:SINA初始赔率:1.45|3.85|7.50下:没有这样的赔率组合
+2018-07-20 15:05:26,050 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:106:SINA变盘赔率:1.40|4.25|8.25下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,061 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:106:Interview初始赔率:1.45|3.90|7.30下:没有这样的赔率组合
+2018-07-20 15:05:26,067 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:106:Interview变盘赔率:1.37|4.20|8.60下:没有这样的赔率组合
+2018-07-20 15:05:26,067 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:106 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:26,067 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:107:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:26,070 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:107:主队:达伽马(联赛排名13)-主场状态2胜0平1负
+2018-07-20 15:05:26,070 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:107:客队:弗鲁米嫩(联赛排名2)-客场状态1胜0平2负
+2018-07-20 15:05:26,070 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:107--达伽马|弗鲁米嫩交手,主队6胜1平3负
+2018-07-20 15:05:26,070 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:107:最近三场比赛(1):弗鲁米嫩2:3达伽马
+2018-07-20 15:05:26,071 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:107:最近三场比赛(2):达伽马0:0弗鲁米嫩
+2018-07-20 15:05:26,071 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:107:最近三场比赛(3):弗鲁米嫩0:1达伽马
+2018-07-20 15:05:26,071 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:107:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:26,076 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:107:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:26,076 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:107:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:26,076 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:107:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:26,077 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:107:  ===>step 2.3): Beta365(半球1.02)|Bet10(半球1.03)|Wewbet(半球1.07)|主队初盘高水!
+2018-07-20 15:05:26,077 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:107:  ===>step 2.3): Wewbet(平手/半球1.03)|主队尾盘高水!
+2018-07-20 15:05:26,077 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:107:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:26,079 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:107 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:26,084 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:107:LIBO初始赔率:2.00|3.20|3.75下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,092 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:107:LIBO变盘赔率:2.25|3.10|3.20下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,098 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:107:William初始赔率:2.05|3.30|3.60下:没有这样的赔率组合
+2018-07-20 15:05:26,102 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:107:William变盘赔率:2.25|3.30|3.10下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,109 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:107:Bet365初始赔率:2.00|3.40|3.75下主队赢得概率:41.30%(19次)-平的概率：23.91%(11次)-输的概率：34.78%(16次)!
+2018-07-20 15:05:26,114 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:107:Bet365变盘赔率:2.20|3.40|3.30下主队赢得概率:0%(0次)-平的概率：50.00%(2次)-输的概率：50.00%(2次)!
+2018-07-20 15:05:26,120 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:107:BWIN初始赔率:1.95|3.40|3.70下主队赢得概率:100.00%(4次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,128 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:107:BWIN变盘赔率:2.20|3.25|3.10下主队赢得概率:50.00%(1次)-平的概率：50.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,134 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:107:SINA初始赔率:1.95|3.25|3.70下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,141 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:107:SINA变盘赔率:2.15|3.20|3.30下主队赢得概率:0%(0次)-平的概率：75.00%(3次)-输的概率：25.00%(1次)!
+2018-07-20 15:05:26,147 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:107:Interview初始赔率:2.00|3.30|3.60下主队赢得概率:46.67%(14次)-平的概率：33.33%(10次)-输的概率：20.00%(6次)!
+2018-07-20 15:05:26,153 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:107:Interview变盘赔率:2.20|3.15|3.20下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
+2018-07-20 15:05:26,154 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:107 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:26,154 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:108:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:26,157 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:108:主队:桑托斯(联赛排名17)-主场状态2胜0平1负
+2018-07-20 15:05:26,157 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:108:客队:帕梅拉斯(联赛排名7)-客场状态1胜1平1负
+2018-07-20 15:05:26,157 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:108--桑托斯|帕梅拉斯交手,主队4胜3平3负
+2018-07-20 15:05:26,158 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:108:最近三场比赛(1):帕梅拉斯1:2桑托斯
+2018-07-20 15:05:26,158 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:108:最近三场比赛(2):桑托斯0:1帕梅拉斯
+2018-07-20 15:05:26,158 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:108:最近三场比赛(3):帕梅拉斯2:1桑托斯
+2018-07-20 15:05:26,159 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:108:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:26,160 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:108:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:26,160 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:108:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:26,160 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:108:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:26,161 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:108:  ===>step 2.3): 澳门(平手1.0)|Wewbet(平手1.08)|主队初盘高水!
+2018-07-20 15:05:26,161 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:108:  ===>step 2.3): Beta365(平手1.02)|Bet10(平手1.06)|Wewbet(平手1.05)|主队尾盘高水!
+2018-07-20 15:05:26,161 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:108:  ===>step 2.3): Beta365(受平手/半球1.1)|Bet10(受平手/半球1.1)|客队初盘高水!
+2018-07-20 15:05:26,161 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:108:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:26,163 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:108 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:26,178 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:108:LIBO初始赔率:2.90|3.00|2.45下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,189 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:108:LIBO变盘赔率:2.75|3.00|2.55下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(2次)!
+2018-07-20 15:05:26,219 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:108:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,238 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:108:William变盘赔率:2.75|3.25|2.50下:没有这样的赔率组合
+2018-07-20 15:05:26,248 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:108:Bet365初始赔率:3.00|3.00|2.50下主队赢得概率:9.09%(1次)-平的概率：54.55%(6次)-输的概率：36.36%(4次)!
+2018-07-20 15:05:26,272 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:108:Bet365变盘赔率:2.87|3.00|2.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,285 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:108:BWIN初始赔率:2.95|2.95|2.50下:没有这样的赔率组合
+2018-07-20 15:05:26,293 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:108:BWIN变盘赔率:2.75|3.10|2.55下:没有这样的赔率组合
+2018-07-20 15:05:26,300 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:108:SINA初始赔率:2.95|3.00|2.45下:没有这样的赔率组合
+2018-07-20 15:05:26,307 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:108:SINA变盘赔率:2.80|3.10|2.50下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,315 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:108:Interview初始赔率:2.90|3.10|2.45下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,321 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:108:Interview变盘赔率:2.80|3.05|2.50下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,322 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:108 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:26,322 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:109:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:26,324 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:109:主队:巴竞技(联赛排名16)-主场状态1胜0平2负
+2018-07-20 15:05:26,325 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:109:客队:巴西国际(联赛排名8)-客场状态0胜1平2负
+2018-07-20 15:05:26,325 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:109--巴竞技|巴西国际交手,主队3胜3平4负
+2018-07-20 15:05:26,325 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:109:最近三场比赛(1):巴竞技2:1巴西国际
+2018-07-20 15:05:26,325 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:109:最近三场比赛(2):巴西国际1:0巴竞技
+2018-07-20 15:05:26,326 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:109:最近三场比赛(3):巴西国际2:0巴竞技
+2018-07-20 15:05:26,326 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:109:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:26,327 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:109:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:26,327 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:109:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:26,327 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:109:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:26,327 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:109:  ===>step 2.3): 澳门(平手1.06)|主队初盘高水!
+2018-07-20 15:05:26,328 - /root/PycharmProjects/policy/main/main.py[line:472] - WARNING: match_id = 20180719:109:  ===>step 2.3): Bet10(平手1.01)|Wewbet(平手1.01)|主队尾盘高水!
+2018-07-20 15:05:26,328 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:109:  ===>step 2.3): Beta365(受平手/半球1.05)|Bet10(受平手/半球1.06)|Wewbet(受平手/半球1.09)|客队初盘高水!
+2018-07-20 15:05:26,328 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:109:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:26,330 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:109 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:26,335 - /root/PycharmProjects/policy/main/main.py[line:985] - INFO: match_id = 20180719:109:LIBO初始赔率:3.00|3.00|2.35下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
+2018-07-20 15:05:26,344 - /root/PycharmProjects/policy/main/main.py[line:1052] - INFO: match_id = 20180719:109:LIBO变盘赔率:2.75|2.90|2.62下主队赢得概率:0%(0次)-平的概率：100.00%(2次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,349 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:109:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,355 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:109:William变盘赔率:2.62|3.30|2.60下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,361 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:109:Bet365初始赔率:3.10|3.10|2.40下主队赢得概率:42.86%(3次)-平的概率：0%(0次)-输的概率：57.14%(4次)!
+2018-07-20 15:05:26,366 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:109:Bet365变盘赔率:2.80|3.10|2.60下主队赢得概率:20.00%(1次)-平的概率：40.00%(2次)-输的概率：40.00%(2次)!
+2018-07-20 15:05:26,372 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:109:BWIN初始赔率:3.00|3.00|2.40下主队赢得概率:50.00%(1次)-平的概率：50.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,379 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:109:BWIN变盘赔率:3.00|3.00|2.40下:没有这样的赔率组合
+2018-07-20 15:05:26,387 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:109:SINA初始赔率:3.00|3.05|2.35下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,397 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:109:SINA变盘赔率:2.75|3.10|2.60下:没有这样的赔率组合
+2018-07-20 15:05:26,406 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:109:Interview初始赔率:2.95|3.10|2.40下主队赢得概率:100.00%(1次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,419 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:109:Interview变盘赔率:2.80|3.00|2.60下主队赢得概率:0%(0次)-平的概率：100.00%(1次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,419 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:109 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:26,419 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:109:BWIN赔率没有变化3.0|3.0|2.4
+2018-07-20 15:05:26,431 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:109:BWIN Only初始赔率:3.00|3.00|2.40胜:1|平1|负0
+2018-07-20 15:05:26,464 - /root/PycharmProjects/policy/main/main.py[line:1460] - INFO: match_id = 20180719:110:*****************<<Step 1: 基本面分析>>*****************
+2018-07-20 15:05:26,468 - /root/PycharmProjects/policy/main/main.py[line:561] - INFO: match_id = 20180719:110:杯赛, 联赛排名不是那么重要，看最近状态和相互战绩 
+2018-07-20 15:05:26,469 - /root/PycharmProjects/policy/main/main.py[line:630] - INFO: match_id = 20180719:110:主队:兰普拉(联赛排名60)-主场状态60胜60平60负
+2018-07-20 15:05:26,471 - /root/PycharmProjects/policy/main/main.py[line:633] - INFO: match_id = 20180719:110:客队:圣菲独立(联赛排名60)-客场状态60胜60平60负
+2018-07-20 15:05:26,471 - /root/PycharmProjects/policy/main/main.py[line:636] - INFO: match_id = 20180719:110--兰普拉|圣菲独立交手,主队60胜60平60负
+2018-07-20 15:05:26,471 - /root/PycharmProjects/policy/main/main.py[line:690] - INFO: match_id = 20180719:110:最近三场比赛(1):圣菲独立60:60兰普拉
+2018-07-20 15:05:26,471 - /root/PycharmProjects/policy/main/main.py[line:691] - INFO: match_id = 20180719:110:最近三场比赛(2):圣菲独立60:60兰普拉
+2018-07-20 15:05:26,472 - /root/PycharmProjects/policy/main/main.py[line:692] - INFO: match_id = 20180719:110:最近三场比赛(3):圣菲独立60:60兰普拉
+2018-07-20 15:05:26,472 - /root/PycharmProjects/policy/main/main.py[line:1463] - INFO: match_id = 20180719:110:*****************<<Step 2: 盘口分析>>*******************
+2018-07-20 15:05:26,475 - /root/PycharmProjects/policy/main/main.py[line:414] - INFO: match_id = 20180719:110:  ===>step 2.1): 是否是变动两盘或者两盘以上的盘口?
+2018-07-20 15:05:26,476 - /root/PycharmProjects/policy/main/main.py[line:426] - INFO: match_id = 20180719:110:  ===>step 2.2): 是否盘口有超级高水?(>=1.10)?
+2018-07-20 15:05:26,476 - /root/PycharmProjects/policy/main/main.py[line:439] - INFO: match_id = 20180719:110:  ===>step 2.3): 判断初盘和尾盘， 各个盘口的高水(1.00<=X<=1.10)状态
+2018-07-20 15:05:26,477 - /root/PycharmProjects/policy/main/main.py[line:455] - WARNING: match_id = 20180719:110:  ===>step 2.3): Bet10(平手1.25)|主队初盘高水!
+2018-07-20 15:05:26,477 - /root/PycharmProjects/policy/main/main.py[line:490] - WARNING: match_id = 20180719:110:  ===>step 2.3): Beta365(受平手/半球1.1)|澳门(受平手/半球1.03)|Wewbet(受平手/半球1.09)|客队初盘高水!
+2018-07-20 15:05:26,477 - /root/PycharmProjects/policy/main/main.py[line:507] - WARNING: match_id = 20180719:110:  ===>step 2.3): Beta365(受平手/半球1.0)|澳门(受平手/半球1.0)|Bet10(受平手/半球1.02)|Wewbet(受平手/半球1.05)|客队尾盘高水!
+2018-07-20 15:05:26,477 - /root/PycharmProjects/policy/main/main.py[line:1466] - INFO: match_id = 20180719:110:*****************<<Step 3: 赔率分析>>*******************
+2018-07-20 15:05:26,484 - /root/PycharmProjects/policy/main/main.py[line:1237] - INFO: match_id = 20180719:110 ===>step 3.1): 赔率分析第一步:
+2018-07-20 15:05:26,489 - /root/PycharmProjects/policy/main/main.py[line:1009] - INFO: match_id = 20180719:110:William初始赔率:3.00|3.10|2.40下主队赢得概率:0%(0次)-平的概率：0%(0次)-输的概率：100.00%(1次)!
+2018-07-20 15:05:26,500 - /root/PycharmProjects/policy/main/main.py[line:1076] - INFO: match_id = 20180719:110:William变盘赔率:3.30|2.80|2.45下:没有这样的赔率组合
+2018-07-20 15:05:26,510 - /root/PycharmProjects/policy/main/main.py[line:1016] - INFO: match_id = 20180719:110:Bet365初始赔率:3.10|3.10|2.40下主队赢得概率:42.86%(3次)-平的概率：0%(0次)-输的概率：57.14%(4次)!
+2018-07-20 15:05:26,518 - /root/PycharmProjects/policy/main/main.py[line:1083] - INFO: match_id = 20180719:110:Bet365变盘赔率:3.10|3.10|2.37下主队赢得概率:28.57%(2次)-平的概率：28.57%(2次)-输的概率：42.86%(3次)!
+2018-07-20 15:05:26,524 - /root/PycharmProjects/policy/main/main.py[line:1001] - INFO: match_id = 20180719:110:BWIN初始赔率:3.10|2.95|2.30下主队赢得概率:100.00%(2次)-平的概率：0%(0次)-输的概率：0%(0次)!
+2018-07-20 15:05:26,531 - /root/PycharmProjects/policy/main/main.py[line:1068] - INFO: match_id = 20180719:110:BWIN变盘赔率:3.10|2.95|2.30下主队赢得概率:50.00%(1次)-平的概率：0%(0次)-输的概率：50.00%(1次)!
+2018-07-20 15:05:26,535 - /root/PycharmProjects/policy/main/main.py[line:1030] - INFO: match_id = 20180719:110:SINA初始赔率:3.10|2.80|2.30下:没有这样的赔率组合
+2018-07-20 15:05:26,540 - /root/PycharmProjects/policy/main/main.py[line:1097] - INFO: match_id = 20180719:110:SINA变盘赔率:3.15|2.70|2.35下:没有这样的赔率组合
+2018-07-20 15:05:26,547 - /root/PycharmProjects/policy/main/main.py[line:1023] - INFO: match_id = 20180719:110:Interview初始赔率:3.30|2.85|2.35下:没有这样的赔率组合
+2018-07-20 15:05:26,553 - /root/PycharmProjects/policy/main/main.py[line:1090] - INFO: match_id = 20180719:110:Interview变盘赔率:3.25|2.80|2.40下:没有这样的赔率组合
+2018-07-20 15:05:26,553 - /root/PycharmProjects/policy/main/main.py[line:1295] - INFO: match_id = 20180719:110 ===>step 3.2): 赔率分析第2步:
+2018-07-20 15:05:26,554 - /root/PycharmProjects/policy/main/main.py[line:1381] - INFO: match_id = 20180719:110:BWIN赔率没有变化3.1|2.95|2.3
+2018-07-20 15:05:26,558 - /root/PycharmProjects/policy/main/main.py[line:860] - INFO: match_id = 20180719:110:BWIN Only初始赔率:3.10|2.95|2.30胜:2|平0|负0
+2018-07-20 15:05:26,564 - /root/PycharmProjects/policy/main/main.py[line:867] - INFO: match_id = 20180719:110:BWIN Only最终赔率:3.10|2.95|2.30胜:1|平0|负1
+2018-07-20 15:05:26,569 - /root/PycharmProjects/policy/main/main.py[line:874] - INFO: match_id = 20180719:110:BWIN 初始+最终赔率:3.10|2.95|2.30胜:1|平0|负0
