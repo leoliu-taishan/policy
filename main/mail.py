@@ -22,7 +22,7 @@ def sendMail(body):
         "",
         body
         ]
-    msg = '\n'.join(mail)  # 这种方式先将头信息放到列表中，然后用join拼接，并以换行符分隔元素，结果就是和上面注释一样了
+    msg = '\n'.join(mail)  # 这种方式先将头信aaa息放到列表中，然后用join拼接，并以换行符分隔元素，结果就是和上面注释一样了
     try:
         s = smtplib.SMTP()
         s.connect(smtp_server, '25')
